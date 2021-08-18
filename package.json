@@ -1,18 +1,13 @@
 {
-  "name": "website-readme",
+  "name": "web-readme",
   "version": "1.0.0",
   "main": "src/index.js",
   "license": "MIT",
   "bin": {
-    "gen-readme": "./src/index.js"
+    "web-readme": "./src/index.js"
   },
   "dependencies": {
-    "axios": "^0.21.1",
-    "chalk": "^4.1.2",
     "puppeteer": "^10.2.0",
     "signale": "^1.4.0"
-  },
-  "devDependencies": {
-    "@types/puppeteer": "^5.4.4"
   }
 }
